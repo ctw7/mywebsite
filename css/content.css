@@ -4,11 +4,24 @@
 black/white for higher contrast
 */
 
+/* elements */
+a {
+	text-decoration: none;
+	color: #BEB7A4;
+}
+a:hover {
+	color: white;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
 body {
 	width: 85%;
 	margin: 0 auto;
 	background-color: #131112;
 }
+
+/* classes */
 div.banner {
 	font-size: 12px;
 	background-color: #131112;
@@ -40,6 +53,15 @@ img {
 	width: 60%;
 }
 
+/* fancy shit */
+@-webkit-keyframes glow {
+	from {
+		text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+	}
+	to {
+		text-shadow: 0 0 20px gray, 0 0 30px gray, 0 0 40px gray, 0 0 50px gray, 0 0 60px gray, 0 0 70px gray, 0 0 80px gray;
+	}
+}
 
 /* scrapped stuff
 
