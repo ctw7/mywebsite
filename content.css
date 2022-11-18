@@ -1,26 +1,27 @@
 /* color pallete:
 #BEB7A4 dull gray
-#131112 black
+#131112 sortof black
 black/white for higher contrast
 */
 
 body {
 	width: 85%;
 	margin: 0 auto;
-	background-color: #BEB7A4;
-	font-family: 'Roboto', sans-serif;
+	background-color: #131112;
 }
 div.banner {
-	font-size: 30px;
-	background-color: inherit;
-	margin: 5%;
-	padding-top: 5px;
-	text-align: center;
+	font-size: 12px;
+	background-color: #131112;
+  line-height: 1;
+  text-shadow: 1px 1px 2px #BEB7A4, 0 0 1em #BEB7A4, 0 0 0.2em white, 10px 10px 10px black;
+  color: white;
+  margin: 30px;
 }
 div.content {
 	width: 80vh;
 	margin: 10px auto 10px auto;
 	background-color: #131112;
+  border: 10px ridge #BEB7A4;
 }
 div.main {
 	color: white;
@@ -30,19 +31,13 @@ div.main {
 	border-style: solid;
 	border-width: 1px 0px 1px 0px;
 	border-color: #131112;
-	background-color: #BEB7A4;
+	background-color: #131112;
 }
 
 img {
 	display: block;
 	margin: auto;
 	width: 60%;
-}
-h1 {
-	text-decoration: none;
-	text-shadow: 1px 1px 2px #BEB7A4, 0 0 1em #BEB7A4, 0 0 0.2em white, 10px 10px 10px black;
-	color: white;
-	font-family: arial;
 }
 
 
