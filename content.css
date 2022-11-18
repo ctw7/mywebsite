@@ -1,0 +1,57 @@
+/* color pallete:
+#BEB7A4 dull gray
+#131112 black
+black/white for higher contrast
+*/
+
+body {
+	width: 85%;
+	margin: 0 auto;
+	background-color: #BEB7A4;
+	font-family: 'Roboto', sans-serif;
+}
+div.banner {
+	font-size: 30px;
+	background-color: inherit;
+	margin: 5%;
+	padding-top: 5px;
+	text-align: center;
+}
+div.content {
+	width: 80vh;
+	margin: 10px auto 10px auto;
+	background-color: #131112;
+}
+div.main {
+	color: white;
+	padding: 5%;
+	margin: 5px auto;
+	font-size: 120%;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #131112;
+	background-color: #BEB7A4;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+h1 {
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #BEB7A4, 0 0 1em #BEB7A4, 0 0 0.2em white, 10px 10px 10px black;
+	color: white;
+	font-family: arial;
+}
+
+
+/* scrapped stuff
+
+thing for emphasizing posts on hover
+div.main:hover {
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01);
+}
+
+*/
