@@ -20,37 +20,49 @@ body {
 	margin: 0 auto;
 	background-color: #131112;
 }
+h1 {
+	font-size: 6vw;
+}
+p {
+	font-size: 2.5vw;
+	text-align: center;
+}
+img {
+	display: block;
+	float: center;
+	width: 100%;
+	border: 10px ridge #BEB7A4;
+}
+figcaption {
+	text-align: center;
+	font-size: 15px;
+	padding: 15px;
+}
 
 /* classes */
-div.banner {
-	font-size: 12px;
+.banner {
+	font-size: 1.5vw;
 	background-color: #131112;
   line-height: 1;
   text-shadow: 1px 1px 2px #BEB7A4, 0 0 1em #BEB7A4, 0 0 0.2em white, 10px 10px 10px black;
   color: white;
   margin: 30px;
 }
-div.content {
-	width: 80vh;
-	margin: 10px auto 10px auto;
+.content {
+	width: 80vw;
+	margin: 100px 0;
 	background-color: #131112;
   border: 10px ridge #BEB7A4;
 }
-div.main {
+.main {
 	color: white;
-	padding: 5%;
+	padding: 10%;
 	margin: 5px auto;
 	font-size: 120%;
 	border-style: solid;
 	border-width: 1px 0px 1px 0px;
 	border-color: #131112;
 	background-color: #131112;
-}
-
-img {
-	display: block;
-	margin: auto;
-	width: 60%;
 }
 
 /* fancy shit */
